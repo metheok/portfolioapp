@@ -14,10 +14,7 @@ export default function Projects() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
-    getRepoData();
-  }, []);
-
-  function getRepoData() {
+    
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: (operation) => {
@@ -69,7 +66,8 @@ export default function Projects() {
         setrepoFunction("Error");
         console.log("Because of this Error, nothing is shown in place of Projects section. Projects section not configured");
       });
-  }
+  }, []);
+
 
   function setrepoFunction(array) {
     setrepo(array);
