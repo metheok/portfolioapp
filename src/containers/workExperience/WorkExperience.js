@@ -13,6 +13,7 @@ export default function WorkExperience() {
                 <div className="experience-container" id="workExperience">
                     <div>
                         <h1 className="experience-heading">Experiences</h1>
+                        <div className="experience-cards-container">
                         <div className="experience-cards-div">
                         {workExperiences.experience.map((card) => {
                             return (
@@ -29,6 +30,8 @@ export default function WorkExperience() {
                             );
                         })}
                         </div>
+                        </div>
+
                     </div>
                 </div>
                 </Fade>

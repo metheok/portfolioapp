@@ -119,6 +119,8 @@ const workExperiences = {
       desc: "Work experience of over 6+ Years in web design and development, Worked with companies of all magnitudes ranging from a small startup to buzzing product based company",
   
     },
+
+    
   ]
 };
 

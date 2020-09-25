@@ -1,8 +1,4 @@
-.experience-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 1rem 1rem;
-}
+
 
 .experience-heading {
     font-size: 56px;
@@ -13,10 +9,22 @@
 
 .experience-container {
     display: flex;
-    width: 33%;
+    width: auto;
     padding: 20px 10px;
     margin: 0px auto;
     margin-top: 2rem;
+    
+}
+.experience-cards-container{
+    display: flex;
+    justify-content: center;
+}
+.experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+    width: 400px;
+    
 }
 
 .experience-container>* {
