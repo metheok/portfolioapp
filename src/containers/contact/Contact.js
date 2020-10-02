@@ -30,9 +30,9 @@ export default function Contact() {
                         <SocialMedia/>
                     </div>
                 </div>
-                <div className="contact-image-div">
+                {/* <div className="contact-image-div">
                     <img alt="omar pic" src={require("../../assets/images/iamomariqbal.jpg")}></img>
-                </div>
+                </div> */}
             </div>
         </div>
         </Fade>
