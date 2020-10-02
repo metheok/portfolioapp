@@ -17,14 +17,17 @@ export default function Contact() {
                     
                     <br></br>
                     <p className="contact-detail"> Telegram:
+                        </p>
+                        <p>
                         <a className="contact-detail-email"
                            href= {contactInfo.telegram}>{contactInfo.telegram}</a>
                         </p>
                         <br></br>
                         <p className="contact-detail"> Mail me:
-                        <a className="contact-detail-email"
-                           href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a>
+
                         </p>
+                        <p>                        <a className="contact-detail-email"
+                           href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a></p>
                         
                         <br/><br/>
                         <SocialMedia/>
