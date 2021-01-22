@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Omar Kantroo",
   title: "Hi all, I'm Omar",
-  subTitle: emoji("A coding enthusiast 💻 with experience in Web development using JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."),
+  subTitle: emoji("A coding enthusiast 💻 with experience in Web development using JavaScript / Reactjs / Nodejs / .NET and some other cool libraries and frameworks."),
   resumeLink: "https://www.google.co.in"
 };
 
@@ -35,7 +35,7 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop interactive Front end / User Interfaces for your web"),
-    emoji("⚡ Develop fast SPA's with integration with database"),
+    emoji("⚡ Develop and maintain fast SPA's with integration with database"),
     
   ],
 
@@ -64,6 +64,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "ASP.NET(MVC)",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -77,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Mongo DB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "mySQL",
       fontAwesomeClassname: "fas fa-database"
     },
 
@@ -117,6 +125,14 @@ const workExperiences = {
       companylogo: require("./assets/images/ITenzymeLogo.jpg"),
       date: "June 2015 – Present",
       desc: "Work experience of over 6+ Years in web design and development, Worked with companies of all magnitudes ranging from a small startup to buzzing product based company",
+  
+    },
+    {
+      role: "Software Developer",  
+      company: "ITS - Internet Travel Solutions",
+      companylogo: require("./assets/images/its-logo.png"),
+      date: "October 2020 – Present",
+      desc: "Working full-stack on development and maintainence online travel products",
   
     },
 

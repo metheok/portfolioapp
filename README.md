@@ -3,7 +3,7 @@
 ## How To Use 🔧
 
 # Go into the repository
-$ cd developerFolio
+$ cd portfolioapp
 
 # Install dependencies
 $ npm install
