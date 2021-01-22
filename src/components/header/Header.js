@@ -34,7 +34,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a className="resume" href="https://github.com/metheok/CV/raw/master/omarKantroo_CV.pdf">Resume ⬇</a>
+            <a className="resume" href="https://github.com/metheok/CV/raw/master/omarKantroo_cv.pdf">Resume ⬇</a>
           </li>
 
         </ul>
